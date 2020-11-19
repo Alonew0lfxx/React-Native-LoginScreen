@@ -19,7 +19,7 @@ class TextInput_login extends React.Component {
             <TextInput
                 returnKeyType={isLastComponent === true ? 'go' : 'next'}
                 secureTextEntry={isPassword}
-                autoCapitalize={false}
+                autoCapitalize={'none'}
                 placeholder={hint}
                 ref={this.props.inputRef}///  klavye den ileri tuşuna bastınmı sıradaki öğeye geçmesi için gerekli!
                 onSubmitEditing={this.props.onSubmitEditing}
